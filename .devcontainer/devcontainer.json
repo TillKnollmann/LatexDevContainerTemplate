@@ -1,0 +1,20 @@
+{
+    "name": "Tex",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "vscode",
+    "runServices": ["vscode"],
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/project",
+	"postCreateCommand": "",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"james-yu.latex-workshop",
+				"wayou.vscode-todo-highlight",
+				"donjayamanne.githistory",
+				"christian-kohler.path-intellisense",
+				"streetsidesoftware.code-spell-checker",
+			]
+		}
+	}
+}

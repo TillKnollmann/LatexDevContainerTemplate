@@ -1,0 +1,1 @@
+FROM tillknollmann/latex2022
